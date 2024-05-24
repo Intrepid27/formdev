@@ -849,5 +849,130 @@ a {
     }
 
 }
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+
+    body{
+        max-width: 667px;
+        background-color: #F2F2F2;
+        margin: 0;
+    }
+
+    header, .main-container{
+        background-color: white;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+/*-- section header mobile --*/
+
+    .menu{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    }
+
+    .bouton-hebergement{
+        display: flex;
+        justify-content: center;
+        border: transparent solid 2px;
+        padding: 15px 40px 15px 40px;
+    }
+    .bouton-hebergement:hover{
+        border-top: 2px solid white;
+        border-bottom: 2px solid #0065FC;
+    }
+    
+    .bouton-activites{
+        display: flex;
+        justify-content: center;
+        border: transparent solid 2px;
+        padding: 15px 40px 15px 40px;
+    }
+    .bouton-activites:hover{
+        border-top: 2px solid white;
+        border-bottom: 2px solid #0065FC;
+        color:#0065FC;
+    }
+    
+
+
+/*-- section titre mobile --*/
+
+h1{
+    font-size: 1.5em;
+}
+
+.titre-site{
+    padding-left: 20px;
+}
+
+
+/*-- section recherche mobile --*/
+
+    .container-recherche{
+        margin: 30px 0 30px 20px;
+    }
+
+    .barre-recherche-ville{
+        border: solid 2px ;
+        border-color: #F2F2F2;
+        border-right: none;
+    }
+
+    .bouton-rechercher{
+        display: none;
+    }
+
+    .bouton-rechercher-mobile {
+        width: 50px;
+        height: 50px;
+        background-color: #0065FC;
+        border: none;
+        border-radius: 15px 15px 15px 15px; 
+        box-shadow: 2px 2px 10px #928f8f;
+    }
+
+    .fa-magnifying-glass{
+        color: white !important;
+    }
+
+
+
+/*-- section filtre mobile --*/
+
+    .container-filtre{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .bouton-filtre{
+        width: 120px;
+        height: 20px;
+    }
+
+    .bouton-filtre:hover{
+    background-color: #deebff;
+    
+    }
+
+    .informations{
+        padding-left: 20px;
+        font-size: 1em;
+    }
+
+    .informations p{
+        padding-left: 0;
+        font-size: 1em;
+    }
 
 
