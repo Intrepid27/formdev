@@ -1067,6 +1067,49 @@ h1{
 
 
 
+/*-- section activité mobile --*/
+
+
+.activites-marseille a{
+
+    margin-top: 20px;
+  }
+
+  .activites-cards img{
+
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+  }
+  .activites-cards .card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 160px;
+}
+
+/*-- footer mobile --*/
+  .footer{
+    display: flex;
+    max-width: 370px;
+  }
+
+  .container-footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-content{
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    padding-right: 0;
+  }
+}
 
 
 
