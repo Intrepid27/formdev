@@ -824,6 +824,30 @@ a {
         padding-left:10px;
         font-size: 0.9em;
     }
+       /*--footer version tablets--*/
     
+       .container-footer{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        background-color: #F2F2F2;
+    }
+    
+    .footer-content{
+    
+        height: 30%;
+        padding-right: 80px;
+    
+    }
+    
+    .footer-elements :hover {
+    
+        cursor: pointer;
+    
+    }
+
+}
 
 
