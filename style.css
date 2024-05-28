@@ -124,6 +124,10 @@ form{
     cursor: pointer;
 }
 
+.bouton-rechercher-mobile{
+    display: none;
+}
+
 /*---section filtre---*/
 
 .container-filtre{
