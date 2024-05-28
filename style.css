@@ -27,7 +27,6 @@ body {
 .header-container{
 
     display: flex;
-    flex: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -78,16 +77,14 @@ margin-right: 40px;
 .container-recherche{
 
     display: flex;
-    flex:row;
     justify-content: left;
-    padding-bottom: 50spx;
     
 }
 
 form{
 
     display:flex;
-    flex: row;
+
 }
 
 
@@ -139,7 +136,6 @@ form{
 .filtre{
     text-align: center;
     display: flex;
-    flex: row;
     flex-wrap: wrap;
 }
 
@@ -441,7 +437,6 @@ a {
     .header-container{
     
         display: flex;
-        flex: row;
         justify-content: space-between;
         align-items: center;
     }
@@ -505,16 +500,13 @@ a {
     .container-recherche{
     
         display: flex;
-        flex:row;
         justify-content: left;
-        padding-bottom: 50spx;
         
     }
     
     form{
     
         display:flex;
-        flex: row;
         padding-top: 20px;
     }
     
@@ -568,7 +560,6 @@ a {
     .filtre{
         text-align: center;
         display: flex;
-        flex: row;
         flex-wrap: wrap;
     }
     
