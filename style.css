@@ -78,11 +78,11 @@ margin-right: 40px;
 
     display: flex;
     justify-content: left;
+    padding-top: 10px;
     
 }
 
 form{
-
     display:flex;
 
 }
@@ -131,6 +131,7 @@ form{
     display: flex;
     flex-direction: row;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 .filtre{
