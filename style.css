@@ -6,7 +6,8 @@
 body {
     display: flex;
     justify-content: center;
-    margin: auto 20px;
+    align-items: center;
+    margin: auto;
     max-width: 1440px;
 }
 
@@ -873,18 +874,35 @@ a {
 
 /*-- section header mobile --*/
 
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-booki{
+        width:50% ;
+    }
+
     .menu{
     display: flex;
+    width: 100%;
     justify-content: center;
-    width: 300px;
+    border-bottom: #F2F2F2 solid 2px;
     }
 
     .bouton-hebergement{
         display: flex;
         justify-content: center;
+        width: 50%;
         border: transparent solid 2px;
         padding: 15px 40px 15px 40px;
+        margin-bottom: 0 !important;
     }
+
+    .bouton-hebergement a{
+        font-size: 1.4em;
+    }
+
     .bouton-hebergement:hover{
         border-top: 2px solid white;
         border-bottom: 2px solid #0065FC;
@@ -893,9 +911,16 @@ a {
     .bouton-activites{
         display: flex;
         justify-content: center;
+        width: 50%;
         border: transparent solid 2px;
         padding: 15px 40px 15px 40px;
+        margin-bottom: 0 !important;
     }
+
+    .bouton-activites a{
+        font-size: 1.4em;
+    }
+
     .bouton-activites:hover{
         border-top: 2px solid white;
         border-bottom: 2px solid #0065FC;
